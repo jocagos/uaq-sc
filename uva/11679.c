@@ -1,3 +1,4 @@
+// UVa 11679 - Sub Prime
 #include <stdio.h>
 
 int res[20];

@@ -1,3 +1,4 @@
+// UVa 11661 - Burger Time?
 #include <iostream>
 
 using namespace std;

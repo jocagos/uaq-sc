@@ -1,3 +1,4 @@
+// UVa 11679 - Sub Prime
 #include <iostream>
 
 using namespace std;
