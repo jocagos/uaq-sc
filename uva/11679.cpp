@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // UVa 11679 - Sub Prime
+=======
+>>>>>>> 6bea9c512b7c67247ba6368856c797001fc0cb68
 #include <iostream>
 
 using namespace std;
