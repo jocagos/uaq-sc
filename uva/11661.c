@@ -2,13 +2,15 @@
 #include <stdio.h>
 
 int main( void ){
-    int l = -1, i, d, min;
+    int l = -1, i, d, min = 0;
     char f, c;
-    scanf("%d ", &l);
-    while( l ){
+    while( l != 0 ){
+        scanf("%d", &l);
+        if( l != 0 ) scanf(" ");
         d = 0;
         f = '.';
         min = l;
+        if( !l ) break;
         for( i = 0; i < l; ++i ){
             scanf("%c", &c);
             if( c == 'z' || c == 'Z' ){
@@ -26,15 +28,15 @@ int main( void ){
             }
             if( c == 'D' ){
                 if( f == 'R' )
-                    if( d < min ) min = d;
+                    if( d < min )
+                        min = d;
                 d = 1;
                 f = 'D';
                 continue;
             }
             d++;
         }
-        if( l ) printf("%d\n", min);
-        scanf("%d ", &l);
+        printf("%d\n", min);
     }
     return 0;
 }
