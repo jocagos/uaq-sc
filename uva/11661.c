@@ -15,6 +15,7 @@ int main( void ){
             scanf("%c", &c);
             if( c == 'z' || c == 'Z' ){
                 min = 0;
+                if( i+1 != l )
                 scanf("%*s");
                 break;
             }
