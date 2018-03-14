@@ -13,6 +13,9 @@
 *.class
 *.exe
 *.in
+*.c~
+*.cpp~
+*.out
 
 # Ignore `bin` dir
 bin/
