@@ -17,6 +17,7 @@
 *.cpp~
 *.out
 *.out~
+*.in~
 
 # Ignore `bin` dir
 bin/
